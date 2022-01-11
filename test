@@ -1,10 +1,10 @@
 local ADMINS = {
     1773316894, -- Lerkermer
     1974905357, -- w_6u
-    2234, -- Mas2n
+    738158730, -- Mas2n
     12344533453, -- SusLeveI100
     44694442, -- MinecraftFan
-    738158730, -- HaremGodA1den
+    2327113988, -- HaremGodA1den
     2214013158, -- MiIIionares
     92157681, -- Nina
 }
@@ -464,7 +464,7 @@ local function checkswag()
            
                     elseif table.find(STARS, plrID) then
                         if v:FindFirstChildWhichIsA('Humanoid') then
-                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐]' .. game.Players[v.Name].DisplayName)
+                            v:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[⭐⭐]' .. game.Players[v.Name].DisplayName)
                         end
                     end
                 end
